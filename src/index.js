@@ -5,6 +5,10 @@ import configureStore from './store/configureStore'
 
 
 const store = configureStore()
+store.subscribe(() => {
+  console.log('hello', store.getState() )
+})
+
 
 ReactDOM.render(
 
