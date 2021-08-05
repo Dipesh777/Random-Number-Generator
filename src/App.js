@@ -1,4 +1,5 @@
 import React from 'react'
+import '../node_modules/bootstrap/dist/css/bootstrap.css'
 import NumbersContainer from './components/NumbersApp/NumbersContainer';
 
 function App() {
